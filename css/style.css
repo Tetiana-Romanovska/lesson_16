@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.circle {
+  padding: 10px;
+  fill:yellow;
+  stroke-width:5;
+  stroke:black;
+  transition: 0.75s;
+}
+
+.circle:hover {
+  fill: gray;
+  stroke: green;
+  stroke-width: 5;
+}
